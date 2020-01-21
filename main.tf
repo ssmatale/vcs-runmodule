@@ -6,5 +6,5 @@ resource "null_resource" "cluster" {
 }
 module "null_resource" {
   source  = "app.terraform.io/SSOCloud/null_resource/azure"
-  version = "0.0.2"
+  version = "0.0.1"
 }
