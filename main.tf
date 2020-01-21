@@ -4,3 +4,7 @@ resource "null_resource" "cluster" {
     command = "echo this_is_only_me"
   }
 }
+module "null_resource" {
+  source  = "app.terraform.io/SSOCloud/null_resource/azure"
+  version = "0.0.2"
+}
